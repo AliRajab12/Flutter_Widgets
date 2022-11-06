@@ -17,7 +17,7 @@ class _AnimatedContainerTestScreenState
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.white,
+      backgroundColor: (_tapped) ? Colors.black : Colors.white,
       body: Center(
         child: SingleChildScrollView(
           child: Column(

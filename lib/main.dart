@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'screens/container_test_screen.dart/container_test.dart';
+import 'screens/container_test_screen.dart/animated_container_test.dart';
 
 void main() {
   runApp(const MyApp());
@@ -16,6 +16,6 @@ class MyApp extends StatelessWidget {
         theme: ThemeData(
           primarySwatch: Colors.blue,
         ),
-        home: const ContainerTestScreen());
+        home: const AnimatedContainerTestScreen());
   }
 }

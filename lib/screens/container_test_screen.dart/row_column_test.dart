@@ -11,21 +11,7 @@ class RowColumnTestScreen extends StatelessWidget {
         child: Row(
           mainAxisAlignment: MainAxisAlignment.spaceEvenly,
           children: [
-            Container(
-                color: Colors.green,
-                child: Row(
-                  children: [
-                    const Expanded(
-                      child: Text(
-                          "Hello World! Hello World!Hello World!Hello World!Hello World!Hello World!Hello World!Hello World!Hello World!Hello World!"),
-                    )
-                  ],
-                )),
             Column(
-              /*
-              main axis in the column is the vertical axis and the cross is the
-              horizontal axis
-              */
               mainAxisAlignment: MainAxisAlignment.spaceEvenly,
               children: [
                 Container(

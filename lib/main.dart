@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
-import 'screens/container_test_screen.dart/animated_container_test.dart';
-import 'screens/container_test_screen.dart/row_column_test.dart';
+import 'package:flutter_app_2/screens/container_test_screen.dart/row_column_test.dart';
+
+import 'screens/container_test_screen.dart/text_test.dart';
 
 void main() {
   runApp(const MyApp());
@@ -17,6 +18,6 @@ class MyApp extends StatelessWidget {
         theme: ThemeData(
           primarySwatch: Colors.blue,
         ),
-        home: const RowColumnTestScreen());
+        home: TextTestScreen());
   }
 }

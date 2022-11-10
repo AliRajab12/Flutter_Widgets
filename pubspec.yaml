@@ -17,6 +17,8 @@ dependencies:
 
 
   cupertino_icons: ^1.0.2
+  google_fonts: ^3.0.1
+
 
 dev_dependencies:
   flutter_test:
@@ -47,11 +49,12 @@ flutter:
   # "family" key with the font family name, and a "fonts" key with a
   # list giving the asset and other descriptors for the font. For
   # example:
-  # fonts:
-  #   - family: Schyler
-  #     fonts:
-  #       - asset: fonts/Schyler-Regular.ttf
-  #       - asset: fonts/Schyler-Italic.ttf
+  fonts:
+    - family: Raleway
+      fonts:
+        - asset: assets/fonts/Raleway/Raleway-Bold.ttf
+        - asset: assets/fonts/Raleway/Raleway-ExtraBold.ttf
+        - asset: assets/fonts/Raleway/Raleway-SemiBold.ttf
   #         style: italic
   #   - family: Trajan Pro
   #     fonts:
